@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CodeCoolJavaBasics:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CodeCoolJavaBasics_jar</output-path>
+    <root id="archive" name="CodeCoolJavaBasics.jar">
+      <element id="module-output" name="CodeCoolJavaBasics" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/resources" />
+    </root>
+  </artifact>
+</component>

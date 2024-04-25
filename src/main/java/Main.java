@@ -78,8 +78,8 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        loadCarSpeedInformation("src/resources/measurements.txt");
-        String fileName = "src/resources/result.txt";
+        loadCarSpeedInformation("/Users/jf46004/IdeaProjects/CodeCoolJavaBasics/src/main/java/resources/measurements.txt");
+        String fileName = "/Users/jf46004/IdeaProjects/CodeCoolJavaBasics/src/main/java/resources/result.txt";
         FileWriter fileWriter = new FileWriter(fileName);
         PrintWriter printWriter = new PrintWriter(fileWriter);
         printWriter.println(solveExerciseTwo());
